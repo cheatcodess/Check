@@ -1,0 +1,10 @@
+Newton Raphson mth
+clc;clear;
+deff('y=f(x)','y=cos(x)-x*exp(x)')
+deff('y1=df(x)','y1=-sin(x)-x*exp(x)-exp(x)')
+a=5
+for i=1:10
+c=a-f(a)/df(a)
+a=c
+printf('\n the %d sthe approximation is %0.4f',i,c)
+End
