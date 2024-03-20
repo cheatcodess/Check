@@ -7,7 +7,7 @@ for i=1:20
 c=(a+b)/2
 if (f(a)*f(c)<0) then
 b=c else
-a-c
+a=c
 end
 printf('\nThe %dth approximation is =%0.3f',i,c)
 end
