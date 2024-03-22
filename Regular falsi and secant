@@ -1,0 +1,16 @@
+//Regular falsi method
+clc;clear;
+deff('y=f(x)','y=x^2-x^2-x-1')
+a=1
+b=2
+for i=1:20
+c=(b*f(b)-
+a*f(a))/(f(b)-f(a))
+if (f(a)*f(b)<0)then
+a=c
+else
+b=c
+end
+printf('
+ the %d th aporimation is %.3f',i,c)
+end
